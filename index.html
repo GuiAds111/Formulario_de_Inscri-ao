@@ -1,0 +1,83 @@
+<html>
+    <head> 
+        <title>Formulários no HTML</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>     
+
+    <body>
+        <header>
+        <h1></h1>Formulários no HTML</h1>
+        </header>
+    <br><br>
+        
+        <form>
+
+            <!--Campo de texto-->
+            <label for="name">NOME:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+
+            <!--Campo de email-->
+            <label for="email">E-MAIL:</label>
+            <input type="email" id="email" name="email">    
+            <br><br>
+
+            <!--Campo de senha-->
+            <label for="senha">SENHA:</label>
+            <input type="password" id="senha" name="senha">    
+            <br><br>
+
+            <!--Campo seleção de radio-->
+            <label>GÊNERO:</label><br>
+            <input type="radio" id="genero" id="masculino" value="m">  
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="genero" id="feminino" value="s">  
+            <label for="feminino">Feminino</label>
+            <br><br> 
+            
+            <!--Campo de seleção multipla (checkbox)-->
+            <label>INTERESSES:</label><br>
+            <input type="checkbox" id="backend" id="backend" value="backend" name="interesses">  
+            <label for="backend">Back-end</label>
+            <input type="checkbox" id="frontend" id="frontend" value="frontend" name="interesses">  
+            <label for="frontend">Front-end</label>
+            <input type="checkbox" id="mobile" id="mobile" value="mobile" name="interesses">  
+            <label for="mobile">Mobile</label>
+            <br><br>    
+
+            <!--Campo de Data-->
+            <label for="datadenascimento">Data de Nascimento:</label>
+            <input type="date" id="datadenascimento" name="nascimento">
+            <br><br>
+
+            <!--Campo de arquivo (upload)-->
+            <label for="fotoDoperfil">Foto de Perfil:</label>
+            <input type="file" id="fotoDoperfil" name="avatar">
+            <br><br>
+
+            <!--Campo de caixa de seleção-->
+            <label for="situaçao">Situação Atual:</label>
+            <select name="situaçao" id="situaçao">
+                <option value="" disabled>Selecione uma das opções...</options>
+                <option value="estudante">Estudando para me tornar um programador</option>
+                <option value="estagiario">Atuando como estagiário/trainee</option>
+                <option value="junior">Atuando como desenvolvedor júnior</option>
+                <option value="pleno">Atuando como desenvolvedor pleno</option>
+                <option value="senior">Atuando como desenvolvedor sênior</option>
+        </select>
+        
+        <br><br>    
+
+        <!--Campo de área de texto de múltiplas linhas -->
+           <label for="sobre">Sobre Mim:</label> 
+            <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+            
+            <button type="submit">ENVIAR</button>
+
+       </form>
+     
+    
+    </body>
+</html>

@@ -1,0 +1,16 @@
+header {
+    text-align:center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque; 
+}
+
+body {
+    background-color: azure;
+}
+
+form {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
